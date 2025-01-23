@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="ques.js"></script>
+</head>
+
+<body>
+    <Section class="section">
+        <div style="width:40%">
+            <div id="img"><img src="quiz.jpg" alt="" id="image"></div>
+            <div id="num">
+                <p id="number">0</p>
+                <div class="bar">
+                    <progress id="file" value="0" max="10"></progress>
+                </div>
+            </div>
+        </div>
+        <div style="width:70%">
+            <div id="question"><p id="questionDisplay">To Begin Quiz click on Start Button</p></div>
+            <div id="option"></div>
+            <div id="result">
+                <div class="resultStatus">
+                <p style="color: red;">Fail</p>
+                <p style="color: rgb(189, 189, 0);" >Average</p>
+                <p style="color: green;">Pass</p>
+                </div>
+            <div id="resultDeclaration">
+                <div id="statues1"></div>
+                <div id="statues2"></div>
+                <div id="statues3"></div>
+            </div>
+            </div>
+        </div>
+    </Section>
+
+    <button id="start" onclick="start(0)">Start</button>
+</body>
+
+</html>
