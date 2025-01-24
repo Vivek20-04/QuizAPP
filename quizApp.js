@@ -5,8 +5,8 @@ let Ques = [
         img: "html.png",
         options: {
             right: "Hyper Text Markup Language",
-            wrong1: "Hyper Transfer Mark language",
-            wrong2: "Hyper text modifed languge"
+            wrong2: "Hyper text modifed languge",
+            wrong1: "Hyper Transfer Mark language"
         }
 
     }, {
