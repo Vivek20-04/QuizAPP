@@ -14,6 +14,8 @@ body{
     border: black 2px solid;
     border-radius: .5rem;   
     display: flex;
+    padding: 1rem;
+    margin-top: 7rem;
 }
 #img{
     height: 70%;
@@ -37,7 +39,7 @@ body{
     align-items: center;
 }
 #question{
-    height: 45%;
+    height: 43%;
     width: 100%
 }
 #option{
@@ -99,7 +101,7 @@ body{
 }
 #questionDisplay{
     font-size: 1.2rem;
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
     overflow: auto ;
 }
 
@@ -114,4 +116,26 @@ body{
     margin:0.5rem;
     border-radius: .5rem;
     border: black 2px solid;
+}
+#next{
+    height: 2rem;
+    width:4rem;
+    margin: 1rem;
+    visibility: hidden;
+}
+
+#timerDiv{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-content: center;
+        text-align: center;
+        padding-right: 1rem;
+}
+#timer{
+    border: black 1px solid;
+    height: 2rem;
+    width:2rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
 }
